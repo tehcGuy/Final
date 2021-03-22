@@ -28,13 +28,18 @@ public class MeaninglessInitializers {
         System.out.println("======================");
     }
 
-    public MeaninglessInitializers() { //constructor chain
+    public MeaninglessInitializers() { //constructor chain; backup constructor
         this(0, 0);
     }
 
     {//doesnt work if I have a constructor
         failedOverwrittenDigit = 62;
     }
+
+
+
+
+
 
 
     public static String getCONCATENATED() {
